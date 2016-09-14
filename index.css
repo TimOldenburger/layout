@@ -1,0 +1,98 @@
+body {
+	background-image: url(File:///C:/Users/Gebruiker/Downloads/bg_voetbal.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	color: #000000;
+	font-family: Arial, sans-serif;
+	background-color: #A4A4A4;
+}
+
+header {
+	background-image: url(File:///C:/Users/Gebruiker/Downloads/voetbal_background_1.jpg);
+	background-size: 100% 200%;
+	background-position: center;
+	height: 250px;
+	color: #FFFFFF;
+}
+
+header h1 {
+	padding: 20px 20px 0px 20px;
+	margin: 0;
+}
+
+header p {
+	padding: 0px 20px 20px 20px;
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #424242;
+	margin-top: 0px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	display: inline-block;
+	color: #FFFFFF;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #000000
+}
+
+content {
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 20px;
+	background-color: #FFFFFF;
+}
+
+div#content {
+	flex: 70%;
+	float: left;
+}
+
+aside {
+	float: right;
+	flex: 30%;
+	border-left-style: solid;
+	border-left-color: #424242;
+	background-color: lightgray;
+}
+
+aside p {
+	margin: 50px 10px 190px 10px;
+}
+
+a.more {
+	float: right;
+}
+
+article {
+	padding: 0px 20px 20px 0px;
+}
+
+img.reclame {
+	height: 100%;
+	width: 100%;
+	max-width: 295px;
+	margin: 25px 0px;
+}
+
+p.foot {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}

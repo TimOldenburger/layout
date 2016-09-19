@@ -84,11 +84,35 @@ article {
 	padding: 0px 20px 20px 0px;
 }
 
+.img {
+	float: left;
+	max-height: 300px;
+	max-width: 250px;
+	padding: 0px 10px 10px 0px;
+}
+
+article a {
+	text-decoration: none;
+	color: #0B0B61;
+}
+
 img.reclame {
 	height: 100%;
 	width: 100%;
 	max-width: 295px;
 	margin: 25px 0px;
+}
+
+aside#cola {
+	background-color: #BD1222;
+}
+
+#plus {
+	background-color: #00B6C0;
+}
+
+#mac {
+	background-color: #F3FCF9;
 }
 
 p.foot {

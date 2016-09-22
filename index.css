@@ -51,7 +51,7 @@ nav ul li a:hover {
 	background-color: #000000
 }
 
-content {
+main {
 	display: flex;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -59,7 +59,7 @@ content {
 	background-color: #FFFFFF;
 }
 
-div#content {
+section {
 	flex: 70%;
 	float: left;
 }
